@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Irish+Grover&display=swap');
+
+.container_home{
+    margin: 2pc;
+}
+
+#title_black{
+    font-family: "Irish Grover", system-ui;
+    font-style: normal;
+    color: #333333;
+    text-align: center;
+    font-size: 4pc;
+}
+#title_yellow{
+    font-family: "Irish Grover", system-ui;
+    font-style: normal;
+    color: #EFDB45;
+    text-align: center;
+    font-size: 4pc;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.img img{
+    max-width: 22pc;
+}
+.btn_agendar{
+    display: flex;
+    justify-content: center;
+}
+.btn_agendar button{
+    font-family: "Irish Grover", system-ui;
+    width: 18pc;
+    height: 4pc;
+    font-size: 2pc;
+    background-color: black;
+    color: white;
+    border-radius: 2pc;
+}

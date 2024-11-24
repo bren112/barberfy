@@ -1,0 +1,102 @@
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-title {
+    font-family: "Irish Grover", system-ui;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    width: 100%;
+  }
+  
+  .login-input-group {
+    margin-bottom: 15px;
+  }
+  
+  .login-label {
+    display: block;
+    font-family: "Irish Grover", system-ui;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .login-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Irish Grover", system-ui;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-register-link {
+    font-family: "Irish Grover", system-ui;
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0); /* Tornando o fundo transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que o modal fique acima de outros elementos */
+  }
+  
+  .modal-content {
+    background-color: white; /* Cor de fundo do modal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Tamanho do modal */
+    max-width: 100%;
+  }
+  
+  .modal-close-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal-close-button:hover {
+    background-color: #bbb;
+  }
+  
